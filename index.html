@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="./loguin.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="login-container">
+      <h2>Login</h2>
+
+      <form id="loginForm">
+        <input type="email" id="email" placeholder="Email" required />
+
+        <div class="senha-box">
+          <input type="password" id="senha" placeholder="Senha" required />
+          <button type="button" id="toggleSenha">
+            <img
+              src="./img/mostrar-senha.png"
+              alt="imagem-ver-senha"
+              id="imagem-ver-senha"
+            />
+          </button>
+        </div>
+
+        <button type="submit" class="btn">Entrar</button>
+      </form>
+
+      <p id="mensagem"></p>
+    </div>
+
+    <script src="loguin.js"></script>
+  </body>
+</html>
