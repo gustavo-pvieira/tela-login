@@ -24,7 +24,8 @@ form.addEventListener("submit", function(event) {
     mensagem.style.color = "lightgreen";
 
     setTimeout(() => {
-      window.location.href = "https://gustavo-pvieira-portfolio.netlify.app/";
+      window.location.href = "https://gustavo-pvieira.github.io/";
     }, 1000);
   }
+
 });
